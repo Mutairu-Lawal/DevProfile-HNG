@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.profile-card .profile-context .email,
+.profile-card .profile-context .location,
+.profile-card .profile-context .timezone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.profile-card .profile-context .email img,
+.profile-card .profile-context .location img,
+.profile-card .profile-context .timezone img {
+  width: 20px;
+  height: 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', serif;
+  margin: 4px 0;
+}
+.profile-card,
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  min-height: 100dvh;
+  font-family: 'Roboto', serif;
+  padding: 1em;
+  overflow-x: hidden;
+}
+img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.profile-card {
+  flex-direction: column;
+  position: relative;
+  max-width: 400px;
+}
+.profile-card .img-container {
+  width: calc(100% - 3em);
+  max-width: 300px;
+  height: 300px;
+  top: 0;
+  border-radius: 1em;
+  position: absolute;
+  overflow: hidden;
+}
+.profile-card .profile-context {
+  border-radius: 1em;
+  margin-top: 50%;
+  text-align: center;
+  padding-top: 9em;
+  padding-bottom: 1em;
+  -webkit-box-shadow: 0 0 8.5px 5.5px #ddd;
+  -moz-box-shadow: 0 0 8.5px 5.5px #ddd;
+  box-shadow: 0 0 8.5px 5.5px #ddd;
+}
+.profile-card .profile-context h1 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-top: 0.3em;
+}
+.profile-card .profile-context h3 {
+  text-transform: capitalize;
+}
+.profile-card .profile-context p {
+  margin: 4px 0;
+}
+.profile-card .profile-context a {
+  color: initial;
+  font-weight: bolder;
+}
+.profile-card .profile-context .bio-data {
+  padding: 0 0.5em;
+  text-align: center;
+  margin: 1em 0;
+}
+.profile-card .profile-context .bio-data P:first-child {
+  margin-bottom: 1em;
+}
+.profile-card .profile-context .social-links {
+  display: flex;
+  justify-content: space-around;
+  margin: 12px;
+}
+.profile-card .profile-context .social-links .icon {
+  width: 50px;
+  height: 50px;
+}
+.profile-card .profile-context .social-links .icon:hover {
+  transform: scale(1.2);
+}
+@media (min-width: 321px) {
+  .profile-card .profile-context {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6em;
+  }
+  .profile-card .profile-context h1 {
+    margin-top: 0.3em;
+  }
+}
+@media (min-width: 340px) {
+  .profile-card .profile-context {
+    padding-top: 7em;
+  }
+}
+@media (min-width: 350px) {
+  .profile-card .profile-context {
+    padding-top: 7.5em;
+  }
+}
+@media (min-width: 400px) {
+  .profile-card .profile-context {
+    padding-top: 6em;
+  }
+}
+@media (min-width: 600px) {
+  .profile-card .profile-context {
+    padding-top: 6em;
+  }
+  .profile-card .profile-context .social-links {
+    display: flex;
+    justify-content: space-around;
+  }
+  .profile-card .profile-context .social-links .icon {
+    width: 50px;
+    height: 50px;
+  }
+  .profile-card .profile-context .social-links .icon:hover {
+    transform: scale(1.2);
+  }
+}

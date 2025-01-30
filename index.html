@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <meta
+      name="description"
+      content="Frontend Developer specializing in responsive web design, UI/UX, and JavaScript frameworks like React and Nextjs. Crafting seamless, user-centered digital experiences."
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>TechwithMT</title>
+  </head>
+  <body>
+    <main>
+      <div class="profile-card">
+        <div class="img-container">
+          <img
+            src="images/IMG_20240819_094031.jpg"
+            alt="my-image"
+            data-testid="profilePicture"
+          />
+        </div>
+        <div class="profile-context">
+          <h1 data-testid="fullName">mutairu lawal</h1>
+          <h3 data-testid="jobTitle">frontend developer</h3>
+          <div class="email">
+            <img
+              src="/images//envelope-regular.svg"
+              alt=""
+              width="10"
+              height="10p"
+            />
+            <a
+              href="mailto:lawalmuktair@gmail.com"
+              data-testid="emailAddress"
+              aria-label="click to send direct email"
+            >
+              lawalmuktair@gmail.com</a
+            >
+          </div>
+
+          <section class="bio-data" data-testid="shortBio">
+            <p>
+              Passionate and creative frontend developer with a strong
+              background in building engaging and user-friendly web interfaces.
+              Proficient in HTML, CSS, JavaScript, and modern frameworks such as
+              React, Nextjs,TailwindCss and other testing application.
+            </p>
+            <p>
+              Committed to creating responsive designs and seamless user
+              experiences. Adept at collaborating with cross-functional teams to
+              deliver high-quality projects on time.
+            </p>
+          </section>
+
+          <div class="location">
+            <img src="images/location-dot-solid.svg" alt="location" />
+            <h4 data-testid="currentLocation">Lagos, NIG</h4>
+          </div>
+          <div class="timezone">
+            <img src="images/x-twitter-brands-solid.svg" alt="clock" />
+            <h5>
+              current time:
+              <span data-testid="currentTimeUTC" id="currentTimeUTC">2pm</span>
+            </h5>
+          </div>
+          <div class="social-links" data-testid="socialLinks">
+            <div class="icon">
+              <a
+                href="https://github.com/Mutairu-Lawal"
+                aria-label="click to visit my github profile"
+                data-testid="githubLink"
+              >
+                <img
+                  src="/images/square-github-brands-solid.svg"
+                  alt="github"
+                />
+              </a>
+            </div>
+            <div class="icon">
+              <a
+                href="https://www.linkedin.com/in/lawal-mutairu-biodun-704276111"
+                aria-label="click to visit my linkedin profile"
+                data-testid="linkedinLink"
+              >
+                <img src="/images/linkedin-brands-solid.svg" alt="linkedin" />
+              </a>
+            </div>
+            <div class="icon">
+              <a
+                href="https://www.facebook.com/lawal.muktairmtlaw"
+                aria-label="click to visit my facebook profile"
+                data-testid="facebookLink"
+              >
+                <img
+                  src="/images/square-facebook-brands-solid.svg"
+                  alt="facebook"
+                />
+              </a>
+            </div>
+            <div class="icon">
+              <a
+                href="https://twitter.com/Amdrealmtlaw"
+                aria-label="click to visit my twitter or X profile"
+                data-testid="twitterLink"
+              >
+                <img src="/images/x-twitter-brands-solid.svg" alt="twitter" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
