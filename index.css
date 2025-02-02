@@ -33,8 +33,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-body {
   min-height: 100dvh;
   font-family: 'Roboto', serif;
   padding: 1em;
